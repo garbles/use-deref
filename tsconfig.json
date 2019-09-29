@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015", "es2016", "esnext"],
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "build",
+    "declaration": true
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules"]
+}

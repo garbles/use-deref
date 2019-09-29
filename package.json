@@ -1,0 +1,23 @@
+{
+  "name": "use-deref",
+  "version": "1.0.0",
+  "description": "A react hook to dereference promises into Result objects",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": "https://github.com/garbles/use-deref",
+  "author": "Gabe Scholz",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "@types/react": "^16.9.3",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "tsc",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "react": ">=16.8.0",
+    "result-object": "^1.0.4"
+  }
+}
